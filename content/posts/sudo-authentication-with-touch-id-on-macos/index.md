@@ -1,11 +1,10 @@
 ---
-title: "MacOS에서 Touch ID로 sudo 인증하기"
+title: 'MacOS에서 Touch ID로 sudo 인증하기'
 date: 2023-12-11T13:15:46+09:00
 comments: true
-categories: ["강좌"]
-comments: true
+categories: ['강좌']
 tags:
-    - macOS
+  - macOS
 ---
 
 MacOS를 사용하다 보면 터미널에서 sudo를 사용할 때마다 매번 비밀번호를 입력해 주어야 하는 번거로움이 있습니다.
