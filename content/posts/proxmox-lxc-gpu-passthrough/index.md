@@ -13,7 +13,7 @@ tags:
 
 이 글은 PVE 9.X `(pve-manager/9.0.11/3bf5476b8a4699e2 (running kernel: 6.14.11-4-pve))` 환경을 기준으로 작성되었습니다.
 
-# 사전 작업
+## 사전 작업
 
 Nvidia GPU 드라이버 빌드 시 현재 커널의 헤더를 사용함으로 먼저 커널을 최신 버전으로 업데이트 해줍니다.
 
@@ -45,7 +45,7 @@ update-initramfs -u
 reboot
 ```
 
-# Nvidia 드라이버 설치
+## Nvidia 드라이버 설치
 
 [Nvidia 드라이버 다운로드 페이지](https://www.nvidia.com/drivers/)에서 자신의 GPU에 알맞은 드라이버의 설치 링크를 복사한 뒤 아래 명령어를 통해 설치합니다.
 
@@ -65,7 +65,7 @@ chmod a+x NVIDIA-Linux-x86_64-580.95.05.run
 nvidia-smi
 ```
 
-# LXC 컨테이너 설정
+## LXC 컨테이너 설정
 
 PVE 웹 대시보드에 접속한 뒤 GPU 패스스루를 설정할 LXC 컨테이너의 `Resource` 탭으로 이동하여 `Device Passthrough` 항목을 선택하여 추가합니다.
 
@@ -84,7 +84,7 @@ PVE 웹 대시보드에 접속한 뒤 GPU 패스스루를 설정할 LXC 컨테�
 
 ![LXC 컨테이너 설정](./images/proxmox-lxc-gpu-passthrough-1.png)
 
-# 컨테이너 내 드라이버 설치
+## 컨테이너 내 드라이버 설치
 
 Device Passthrough 설정이 완료되었으면 LXC 컨테이너에 접속하여 Nvidia 드라이버를 설치합니다.
 
