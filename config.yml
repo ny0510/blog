@@ -1,5 +1,5 @@
 baseURL: 'https://blog.ny64.kr'
-title: NY64의 무한삽질 블로그
+title: ny64의 무한삽질 블로그
 # paginate: 15
 theme: PaperMod
 
@@ -26,9 +26,9 @@ outputs:
 
 params:
   env: production
-  title: NY64의 무한삽질 블로그
+  title: ny64의 무한삽질 블로그
   description: '끝이 없는 삽질..'
-  keywords: [Blog, 블로그, NY64, NY0510, 개발자, 개발블로그, 코딩, 삽질, 무한삽질]
+  keywords: [Blog, 블로그, ny64, ny0510, 개발자, 개발블로그, 코딩, 삽질, 무한삽질, devlog, programming, coding]
   author: NY64
   images: ['https://raw.githubusercontent.com/NY0510/blog/main/static/image/og.png']
   DateFormat: '2006년 01월 02일'
@@ -91,7 +91,7 @@ params:
 
   socialIcons:
     - name: github
-      url: 'https://github.com/NY0510'
+      url: 'https://github.com/ny0510'
     # - name: discord
     #   url: 'https://discord.com/users/690148325604720660'
     - name: buymeacoffee
