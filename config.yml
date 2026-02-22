@@ -86,8 +86,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "안녕하세요! <span class='tossface'>👋</span>"
-    Content: NY64의 무한삽질 블로그에 오신걸 환영합니다
+    Title: '안녕하세요! 👋'
+    Content: ny64의 무한삽질 블로그에 오신걸 환영합니다!
 
   socialIcons:
     - name: github
