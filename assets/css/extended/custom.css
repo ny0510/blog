@@ -67,7 +67,7 @@ figure {
 
 /* TOC안 Table of Conetnts 상단 마진 */
 div.toc > details[open] > summary {
-  margin-top: 0.8rem;
+  /* margin-top: 0.8rem; */
 }
 
 /* Adfit */
