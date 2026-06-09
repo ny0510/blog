@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   {{ range .Data.Pages }}
     {{- $exclude := false -}}
-    {{- if or (in .RelPermalink "/tags/") (in .RelPermalink "/categories/") (in .RelPermalink "/search/") (in .RelPermalink "/archives/") -}}
+    {{- if or (in .RelPermalink "/tags/") (in .RelPermalink "/categories/") (in .RelPermalink "/search/") (in .RelPermalink "/archives/") (eq .RelPermalink "/posts/") -}}
       {{- $exclude = true -}}
     {{- end -}}
     {{- if and .Permalink (not $exclude) -}}
