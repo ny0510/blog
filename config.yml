@@ -1,10 +1,9 @@
 baseURL: 'https://blog.ny64.kr'
 title: ny64의 무한삽질 블로그
-# paginate: 15
 theme: PaperMod
 
 pagination:
-  pagerSize: 15
+  pagerSize: 10
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -29,16 +28,16 @@ params:
   title: ny64의 무한삽질 블로그
   description: '끝이 없는 삽질..'
   keywords: [Blog, 블로그, ny64, ny0510, 개발자, 개발블로그, 코딩, 삽질, 무한삽질, devlog, programming, coding]
-  author: NY64
+  author: ny64
   images: ['https://raw.githubusercontent.com/NY0510/blog/main/static/image/og.png']
-  DateFormat: '2006년 01월 02일'
+  DateFormat: '2006. 01. 02'
   footer:
     text: ''
     hideCopyright: false
   defaultTheme: dark # dark, light
   disableThemeToggle: true
 
-  ShowReadingTime: true
+  ShowReadingTime: false
   ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: false
@@ -57,7 +56,7 @@ params:
 
   assets:
     disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
+    disableFingerprinting: true
     favicon: 'https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon.ico'
     favicon16x16: 'https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon-16x16.png'
     favicon32x32: 'https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon-32x32.png'
@@ -94,14 +93,14 @@ params:
       url: 'https://github.com/ny0510'
     # - name: discord
     #   url: 'https://discord.com/users/690148325604720660'
-    - name: buymeacoffee
+    - name: paypal
       url: 'https://paypal.me/ny64'
     - name: email
       url: 'mailto:me@ny64.kr'
 
   analytics:
-    google:
-      SiteVerificationTag: ''
+    # google:
+    #   SiteVerificationTag: ''
     # bing:
     #     SiteVerificationTag: ""
     # yandex:
