@@ -3,6 +3,7 @@ Disallow: /tags/
 Disallow: /categories/
 Disallow: /search/
 Disallow: /archives/
+Disallow: /page/
 Disallow: /posts/$
 
 Sitemap: {{ "sitemap.xml" | absURL }}
